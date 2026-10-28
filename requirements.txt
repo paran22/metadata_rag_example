@@ -1,0 +1,7 @@
+streamlit>=1.40
+chromadb>=1.0
+openai>=1.60
+python-dotenv>=1.0
+pandas>=2.0
+# Streamlit Cloud(리눅스)의 sqlite3가 오래돼 Chroma가 거부할 때 대체용. 윈도우에는 휠이 없어 리눅스에서만 설치.
+pysqlite3-binary; sys_platform == "linux"
